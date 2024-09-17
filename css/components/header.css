@@ -1,0 +1,19 @@
+.header {
+  background-color: white;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 42px;
+}

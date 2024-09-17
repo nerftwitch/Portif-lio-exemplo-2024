@@ -1,0 +1,69 @@
+.hero__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+}
+main h1 {
+  color: #33323d;
+  width: 430px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  margin-bottom: 30px;
+}
+main p {
+  color: #33323d;
+  width: 430px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.8;
+  margin-bottom: 0px;
+}
+
+main img {
+  width: auto;
+  max-height: 600px;
+  flex-shrink: 0;
+}
+img.imgHero {
+  width: 1110px;
+  height: 500px;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+}
+.hero__button {
+  width: 204px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: white;
+  color: #33323d;
+  margin-top: 30px;
+
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border-radius: 1px;
+}
+.hero__button:hover {
+  color: #fafafa;
+  background-color: #33323d;
+}
+.contato__section {
+  display: flex;
+  height: 84px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}

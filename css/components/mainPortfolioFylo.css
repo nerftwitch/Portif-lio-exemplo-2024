@@ -1,0 +1,147 @@
+main h1 {
+  color: #33323d;
+  width: 430px;
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  margin-bottom: 30px;
+}
+main p {
+  color: #33323d;
+  width: 430px;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.8;
+  margin-bottom: 0px;
+}
+
+main p.colorCyan {
+  color: #5fb4a2;
+
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 30px;
+}
+main img {
+  width: 635px;
+  max-height: auto;
+  flex-shrink: 0;
+}
+img.imgHero {
+  width: 1110px;
+  height: 500px;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+}
+.hero__button {
+  width: 204px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: white;
+  color: #33323d;
+  margin-top: 30px;
+
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border-radius: 1px;
+}
+.hero__button:hover {
+  color: #fafafa;
+  background-color: #33323d;
+}
+.contato__section {
+  display: flex;
+  height: 84px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.minhadivteste {
+  display: flex;
+
+  align-items: flex-start;
+  margin-top: 64px;
+  gap: 45px;
+}
+
+main h1.tituloPort {
+  color: #33323d;
+
+  font-family: "Ibarra Real Nova";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: -0.286px;
+}
+
+main p.descriPort {
+  color: #33323d;
+  width: 635px;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.botao {
+  width: 8px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.botaoesquerda {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.botaodireita {
+  display: flex;
+  align-items: center;
+}
+.titulo {
+  color: #33323d;
+  margin: 0px;
+  font-family: "Ibarra Real Nova";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.286px;
+  width: 116.17px;
+}
+.subtitulo {
+  color: #33323d;
+
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.5;
+  box-sizing: border-box;
+  width: 130.191px;
+}
+.linksSection {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

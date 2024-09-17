@@ -1,0 +1,150 @@
+.contato {
+  display: flex;
+  gap: 125px;
+  flex-wrap: wrap;
+  border-top: 2px solid #33323d36;
+  margin-top: 30px;
+}
+.formulario {
+  display: flex;
+  gap: 125px;
+  flex-wrap: wrap;
+  border-top: 2px solid #33323d36;
+}
+
+.contato h1 {
+  color: #33323d;
+
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  width: 350px;
+}
+
+.formulario p {
+  color: #33323d;
+
+  font-family: "Public Sans";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.contato p {
+  color: #33323d;
+
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.9;
+  width: 635px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  width: 104px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  gap: 20px;
+  padding: 0px;
+}
+.formulario h1 {
+  color: #33323d;
+
+  font-family: "Ibarra Real Nova";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  width: 350px;
+}
+
+.nome {
+  width: 635px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #e1e1e7;
+  outline: none;
+  border: none;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.nome:hover {
+  outline: none;
+  border: 3px solid #000000;
+}
+
+.email {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 635px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #e1e1e7;
+  outline: none;
+  border: none;
+}
+.email:hover {
+  outline: none;
+  border: 3px solid #000000;
+}
+.mensagem {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 635px;
+  height: 96px;
+  flex-shrink: 0;
+  background: #e1e1e7;
+  outline: none;
+  border: none;
+  vertical-align: baseline;
+}
+.mensagem:hover {
+  outline: none;
+  border: 3px solid #000000;
+}
+.botao button {
+  color: #fff;
+  background-color: #203a4c;
+
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 200px;
+  height: 48px;
+  outline: none;
+  border: none;
+  flex-shrink: 0;
+}
+.botao button:hover {
+  background-color: #5fb4a2;
+}
+
+.botao {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
